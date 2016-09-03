@@ -20,6 +20,8 @@
 //    [NSThread detachNewThreadSelector:@selector(timer1) toTarget:self withObject:nil];
 //    [self timer2];
     [self observer];
+    
+    NSLog(@"完成版本开发");
 }
 
 - (void)timer1
